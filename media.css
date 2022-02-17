@@ -1,0 +1,526 @@
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    #hambMenu{
+        display: none;
+    }
+    .header-bottom nav ul{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .intro .wrapper{
+        text-align: center;
+        font-size: 20px;
+        margin: 50px auto;
+    }
+    .nasJelovnik .primer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nasJelovnik .primer article{
+        flex-basis: 47%;
+    }
+    .footer1 .wrapper{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .footer1 .logo{
+        flex-basis: 200px;
+    }
+    .footer1 .wrapper .social{
+        padding: 10px 0;
+    }
+
+    .form-example{
+        display: block;
+        margin: 60px 0;
+    }
+    #name, #email, #title, #comments{
+        display: block;
+        width: 80%;
+        margin: 5px 0 10px;
+        border: 0.5px solid #ddd;
+        padding: 5px 3px;
+    }
+    #comments{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .wrapper{
+        width: 900px;
+    }
+    #hambMenu{
+        display: none;
+    }
+    .header{
+        position: relative;
+    }
+    .header-bottom{
+        background-color: rgba(0, 0, 0, 0.26);
+        width: 100%;
+        position: absolute;
+        border-bottom: 5px solid rgba(0, 0, 0, 0.35);
+    }
+    .header-bottom .wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .header-bottom .logo{
+        margin: 0;
+        width: 200px;
+    }
+    .header-bottom nav{
+        width: 50%;
+    }
+    .header-bottom nav ul{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+    .header-bottom nav ul a:link,
+    .header-bottom nav ul a:visited{
+        display: block;
+        padding: 10px;
+        transform: 1 all ease;
+    }
+    .header-bottom nav ul a:hover{
+        transform: rotate(15deg);
+        background-color: rgba(0, 0, 0, 0.26);
+        transform: 1 all ease;
+    }
+    .hero{
+        padding: 200px;
+        font-size: 24px;
+    }
+    .intro .wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0;
+    }
+    .intro .slika{
+        width: 200%;
+    }
+    .intro .textIntro{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .burger .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .burger .wrapper .hambText{
+        flex-basis: 70%;
+    }
+    .nasJelovnik .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nasJelovnik article{
+        flex-basis: 95%;
+        margin-right: 20px;
+    }
+    .nasJelovnik .primer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nasJelovnik .primer article{
+        flex-basis: 46%;
+    }
+    .nasJelovnik .nasaHrana{
+        padding: 35px 5px;
+    }
+    .footer1 .wrapper{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .footer1 .logo{
+        flex-basis: 300px;
+    }
+    .footer1 .wrapper .social{
+        padding: 20px 0;
+    }
+
+    /*DRUGA STRANA*/
+
+    .header-bottom-second{
+        background-color: #6e6e6e;
+        position: static;
+        border-bottom: 5px solid #d9d9d9;
+    }
+    .central .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .central main{
+        flex-basis: 61%;
+    }
+    .central aside{
+        flex-basis: 34%;
+        border-top: none;
+        padding: 20px 0 20px 15px;
+        margin: 130px 0 0; 
+    }
+    .central aside .primer{
+        display: block;
+    }
+    .central aside .hrana,
+    .central aside .nasaHrana{
+        margin: 0;
+        padding: 0;
+    }
+
+    /*TRECA STRANA*/
+
+    .central .main3{
+        flex-basis: 73%;
+    }
+    .central .cenaSide{
+        margin-top: 150px;
+        flex-basis: 25%;
+    }
+
+    /*CETVRTA STRANA*/
+
+    #name, #email, #title {
+        margin: 15px 0 25px;
+        width: 60%;
+    }
+    #comment{
+        margin: 15px 0 25px;
+    }
+
+    .central .contactSide{
+        height: 350px;
+        background-color: #eee;
+        margin: 50px 0 0;
+    }
+    
+}
+
+@media screen and (min-width: 1201px){
+    #hambMenu{
+        display: none;
+    }
+    .header-bottom nav ul{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .wrapper{
+        width: 900px;
+    }
+    #hambMenu{
+        display: none;
+    }
+    .header{
+        position: relative;
+    }
+    .header-bottom{
+        background-color: rgba(0, 0, 0, 0.26);
+        width: 100%;
+        position: absolute;
+        border-bottom: 5px solid rgba(0, 0, 0, 0.35);
+    }
+    .header-bottom .wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .header-bottom .logo{
+        margin: 0;
+        width: 220px;
+    }
+    .header-bottom nav ul{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+    .header-bottom nav ul a:link,
+    .header-bottom nav ul a:visited{
+        display: block;
+        padding: 10px;
+        transform: 1 all ease;
+    }
+    .header-bottom nav ul a:hover{
+        transform: rotate(15deg);
+        background-color: rgba(0, 0, 0, 0.26);
+        transform: 1 all ease;
+    }
+    .hero{
+        padding: 200px;
+        font-size: 24px;
+    }
+    .intro .wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0;
+    }
+    .intro .slika{
+        width: 200%;
+    }
+    .intro .textIntro{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .burger .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .burger .wrapper .hambText{
+        flex-basis: 70%;
+    }
+    .nasJelovnik .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nasJelovnik article{
+        flex-basis: 95%;
+        margin-right: 20px;
+    }
+    .nasJelovnik .primer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nasJelovnik .primer article{
+        flex-basis: 46%;
+    }
+    .nasJelovnik .nasaHrana{
+        padding: 35px 5px;
+    }
+    .footer1 .wrapper{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .footer1 .logo{
+        flex-basis: 300px;
+    }
+    .footer1 .wrapper .social{
+        padding: 20px 0;
+    }
+
+    /*DRUGA STRANA*/
+
+    .header-bottom-second{
+        background-color: #6e6e6e;
+        position: static;
+        border-bottom: 5px solid #d9d9d9;
+    }
+    .central .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .central main{
+        flex-basis: 61%;
+    }
+    .central aside{
+        flex-basis: 34%;
+        border-top: none;
+        padding: 20px 0 20px 15px;
+        margin: 130px 0 0; 
+    }
+    .central aside .primer{
+        display: block;
+    }
+    .central aside .hrana,
+    .central aside .nasaHrana{
+        margin: 0;
+        padding: 0;
+    }
+
+    /*TRECA STRANA*/
+
+    .central .main3{
+        flex-basis: 73%;
+    }
+    .central .cenaSide{
+        margin-top: 150px;
+        flex-basis: 25%;
+    }
+
+    /*CETVRTA STRANA*/
+
+    #name, #email, #title {
+        margin: 15px 0 25px;
+        width: 60%;
+    }
+    #comment{
+        margin: 15px 0 25px;
+    }
+
+    .central .contactSide{
+        height: 350px;
+        background-color: #eee;
+        margin: 50px 0 0;
+    }
+    
+}
+
+@media screen and (min-width: 1280px){
+    .wrapper{
+        width: 1170px;
+    }
+    #hambMenu{
+        display: none;
+    }
+    .header{
+        position: relative;
+    }
+    .header-bottom{
+        background-color: rgba(0, 0, 0, 0.26);
+        width: 100%;
+        position: absolute;
+        border-bottom: 5px solid rgba(0, 0, 0, 0.35);
+    }
+    .header-bottom .wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .header-bottom .logo{
+        margin: 0;
+        width: 200px;
+    }
+    .header-bottom nav{
+        width: 50%;
+    }
+    .header-bottom nav ul{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        margin-left: auto;
+        padding: 0;
+        align-items: center;
+    }
+    .header-bottom nav ul a:link,
+    .header-bottom nav ul a:visited{
+        display: block;
+        padding: 10px;
+        transform: 1 all ease;
+    }
+    .header-bottom nav ul a:hover{
+        transform: rotate(15deg);
+        background-color: rgba(0, 0, 0, 0.26);
+        transform: 1 all ease;
+    }
+    .hero{
+        padding: 250px;
+        font-size: 24px;
+    }
+    .intro .wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 0;
+    }
+    .intro .slika{
+        width: 200%;
+    }
+    .intro .textIntro{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .burger .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .burger .wrapper .hambText{
+        flex-basis: 70%;
+    }
+    .nasJelovnik .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nasJelovnik article{
+        flex-basis: 95%;
+        margin-right: 20px;
+    }
+    .nasJelovnik .primer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nasJelovnik .primer article{
+        flex-basis: 46%;
+    }
+    .nasJelovnik .nasaHrana{
+        padding: 35px 5px;
+    }
+    .footer1 .wrapper{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .footer1 .logo{
+        flex-basis: 300px;
+    }
+    .footer1 .wrapper .social{
+        padding: 20px 0;
+    }
+
+    /*DRUGA STRANA*/
+
+    .header-bottom-second{
+        background-color: #6e6e6e;
+        position: static;
+        border-bottom: 5px solid #d9d9d9;
+    }
+    .central .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .central main{
+        flex-basis: 61%;
+    }
+    .central aside{
+        flex-basis: 34%;
+        border-top: none;
+        padding: 20px 0 20px 15px;
+        margin: 130px 0 0; 
+    }
+    .central aside .primer{
+        display: block;
+    }
+    .central aside .hrana,
+    .central aside .nasaHrana{
+        margin: 0;
+        padding: 0;
+    }
+
+    /*TRECA STRANA*/
+
+    .central .main3{
+        flex-basis: 73%;
+    }
+    .central .cenaSide{
+        margin-top: 150px;
+        flex-basis: 25%;
+    }
+
+    /*CETVRTA STRANA*/
+
+    #name, #email, #title {
+        margin: 15px 0 25px;
+        width: 60%;
+    }
+    #comment{
+        margin: 15px 0 25px;
+    }
+
+    .central .contactSide{
+        height: 350px;
+        background-color: #eee;
+        margin: 50px 0 0;
+    }
+}
