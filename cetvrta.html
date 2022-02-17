@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="fa/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top negative">
+            <div class="wrapper">
+                <div class="rezervacije">
+                    <p>REZERVCIJE &nbsp; 011.111.222</p>
+                </div><!-- end .rezervacije -->
+            </div><!-- end .wrapper -->
+        </div><!-- end .header-top -->
+        <div class="header-bottom header-bottom-second">
+            <div class="wrapper">
+                <div class="logo">
+                    <img src="logo-negative.svg" alt="">
+                </div><!-- end .logo -->
+                <nav>
+                    <span id="hambMenu"><a href="#"><i class="fas fa-bars"></i></a></span>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="druga.html">o&nbsp;nama</a></li>
+                        <li><a href="treca.html">cenovnik</a></li>
+                        <li><a href="cetvrta.html">kontakt</a></li>
+                    </ul>
+                </nav>
+            </div><!-- end .wrapper -->
+        </div><!-- end .header-bottom -->
+    </header>
+    <div class="central">
+        <div class="wrapper">
+            <main class="mainContact">
+                <h1>Kontakt</h1>
+                <p>Stet clita kasd gubergren, no sea takiam voluptua. At vero eos et accusam et justo duo dolores et earebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+                <p>0800 100 100</p>
+                <p>0800 555 788</p>
+                <p>loremrestoran@gmail.com</p>
+                <p><br><br><br>Mauris maximus justo vitae velit eleifend pharetra. Sed ut vestibulum tellus. Morbi quis arcu consectetur, ornare tellus vel, tempor sem. Suspendisse potenti. Maecenas nec risus sed ex sagittis pulvinar eu id eros. Duis sagittis augue diam, vel consequat dui ultrices et. Nam nisl lectus, laoreet vitae mauris cursus, accumsan commodo eros. Etiam eu dignissim purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin in mollis libero. Nullam velit lectus, iaculis non leo id, semper tincidunt felis. Orci varius natoque penatibus et magnis parturient montes, nascetur ridiculus mus.</p>
+                <form action="" method="get" class="form-example">
+                    <label for="name">Your name</label>
+                    <input type="text" name="name" id="name">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="title">Title</label>
+                    <input type="title" name="title" id="title">
+                    <label for="name">Comments</label>
+                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                    <button onclick="prihvatam()" id="oznaci"></button> I accept
+                    <button class="kontaktBtn">SEND</button>
+                </form>
+            </main><!-- end mainContact -->
+            <aside class="contactSide">
+                <p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sdolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum no sea takiam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </aside><!-- end .contactSide -->
+        </div><!-- end .wrapper -->
+    </div><!-- end central -->
+    <footer class="footer">
+        <div class="footer1">
+            <div class="wrapper">
+                <div class="logo">
+                    <img src="logo.svg" alt="">
+                </div><!-- end logo -->
+                <div class="social">
+                    <p>Pratite nas:</p>
+                    
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div><!-- end .social -->
+            </div><!-- end .wrapper -->
+        </div><!-- end .footer1 -->
+        <div class="footer2 negative">
+            <div class="wrapper">
+                <p>Copyright &copy; text</p>
+            </div><!-- end .wrapper -->
+        </div><!-- end footer2 -->
+    </footer>
+
+
+
+
+    <script src="https://kit.fontawesome.com/9b4907fdd9.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function(){
+            jQuery("#hambMenu").click(function(){
+                jQuery(".header-bottom nav ul").slideToggle();
+            });
+        });
+        var brojKlikova = 1;
+        function prihvatam(){
+            var el = document.getElementById("oznaci");
+            if(brojKlikova%2===1){
+                el.innerHTML = "&check;"
+            }
+            else{
+                el.innerHTML = "";
+            }
+            brojKlikova++;
+
+        }
+    </script>
+</body>
+</html>

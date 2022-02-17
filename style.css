@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    vertical-align: bottom;
+    max-width: 100%;
+}
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.negative{
+    color: white;
+}
+
+.wrapper{
+    width: 85%;
+    margin: 0 auto;
+}
+.header-top,
+.header-bottom{
+    background-color: black;
+}
+.rezervacije{
+    font-size: 14px;
+}
+.header-bottom .wrapper{
+    text-align: center;
+    padding: 20px;
+}
+.header-bottom .logo{
+    width: 200px;
+    margin: 0 auto 10px;
+}
+.header-bottom nav ul{
+    list-style: none;
+    padding: 0;
+    max-width: 100%;
+}
+.hero{
+    background: url(hero.jpg) no-repeat top center / cover;
+    padding: 100px 0;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.intro .wrapper{
+    padding: 50px 0;
+}
+.intro .slika{
+    margin: 20px 0 50px;
+}
+.intro .textIntro h2{
+    color: #c88e46;
+    margin: 10px 0;
+} 
+.intro .textIntro p{
+    margin: 15px 0;
+}
+.burger{
+    background-color: #341805;
+    padding: 50px 0 ;
+    font-size: 20px;
+}
+.hambText p{
+    margin: 20px 0;
+    font-size: 18px;
+}
+.hambSlika{
+    text-align: center;
+    padding: 20px 0;
+}
+.nasJelovnik article{
+    margin: 50px 0;
+    font-size: 20px;
+}
+.nasJelovnik article p{
+    font-size: 16px;
+}
+.nasJelovnik .hranaSlika{
+    text-align: center;
+}
+.nasJelovnik h3,
+.nasJelovnik h2{
+    color: #c88e46;
+    margin: 15px 0;
+}
+.nasJelovnik p{
+    margin: 15px 0;
+}
+.nasJelovnik .nasaHrana button,
+.nasJelovnik button,
+.kontaktBtn{
+    background-color: #c88e46;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    padding: 10px 15px;
+    margin: 20px 0;
+    display: block;
+}
+.footer1{
+    background-color: #eee;
+    font-size: 20px;
+}
+.footer1 .wrapper{
+    text-align: center;
+    padding: 15px 0;
+}
+.footer1 .logo{
+    padding: 30px 0;
+}
+.footer1 p{
+    margin: 15px 0;
+}
+.footer1 .wrapper a:link,
+.footer1 .wrapper a:visited{
+    color: #c88e46;
+    padding: 10px 0;
+    font-size: 20px;
+}
+.footer2{
+    background-color: #000;
+}
+.footer2 .wrapper{
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* DRUGA STRANA*/
+
+.header-bottom-second{
+    border-bottom: 10px solid #d9d9d9;
+}
+
+.central .wrapper p{
+    margin: 15px 0;
+}
+.central .wrapper h1,
+.central .wrapper main img{
+    margin: 20px 0;
+}
+.central aside{
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 50px;
+    margin: 50px 0 30px;
+}
+.footer1-second{
+    background-color: #eee;
+}
+
+
+/*TRECA STRANA*/
+.central{
+    margin-top: 50px;
+}
+.cene{
+    margin: 50px 0;
+    border: 0.5px solid #eee;
+}
+.cene,
+.cene tbody,
+.cene tr,
+.cene th{
+    display: block;
+}
+.cene tr:nth-child(even){
+    background-color: #eee;
+}
+.cene tr:hover{
+    background-color: #ddd;
+}
+.cene td,
+.cene th{
+    width: 100%;
+    padding: 8px 0;
+}
+.cene th {
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 0;
+}
+.cene .cena{
+    color: #c88e46;
+    font-weight: bold;
+}
+.cene td span{
+    font-weight: bold;
+}
+.cene th{
+    background-color: #c88e46;
+}
+.central aside{
+    padding: 15px 0;
+    text-align: left;
+}
+
+
+/*CETVRTA STRANA*/
+
+
+.form-example{
+    display: block;
+    margin: 50px 0;
+}
+#name, #email, #title, #comments{
+    display: block;
+    width: 100%;
+    margin: 10px 0 20px;
+    border: 0.5px solid #ddd;
+    padding: 5px 3px;
+}
+.mainContact label{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+}
+#oznaci{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.contactSide{
+    margin: 50px 0;
+}
